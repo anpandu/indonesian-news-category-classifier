@@ -35,5 +35,10 @@
     "test": "gulp",
     "mocha": "mocha --recursive --no-timeouts"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jsonfile": "^2.2.3",
+    "lodash": "^4.3.0",
+    "nalapa": "^1.9.2"
+  }
 }
