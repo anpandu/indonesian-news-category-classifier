@@ -1,0 +1,39 @@
+{
+  "name": "indonesian-news-category-classifier",
+  "version": "0.0.0",
+  "description": "Classify category of an Indonesian news.",
+  "homepage": "pandu.ml",
+  "repository": "anpandu/indonesian-news-category-classifier",
+  "author": {
+    "name": "Pandu",
+    "email": "anpandumail@gmail.com",
+    "url": "pandu.ml"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "indonesian",
+    "news",
+    "category",
+    "classifier",
+    "bahasa",
+    "indonesia",
+    "berita"
+  ],
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^0.4.5"
+  },
+  "scripts": {
+    "test": "gulp",
+    "mocha": "mocha --recursive --no-timeouts"
+  },
+  "license": "MIT"
+}
