@@ -1,6 +1,6 @@
 {
   "name": "indonesian-news-category-classifier",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Classify category of an Indonesian news.",
   "homepage": "pandu.ml",
   "repository": "anpandu/indonesian-news-category-classifier",
