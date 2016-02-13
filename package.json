@@ -1,6 +1,6 @@
 {
   "name": "indonesian-news-category-classifier",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Classify category of an Indonesian news.",
   "homepage": "pandu.ml",
   "repository": "anpandu/indonesian-news-category-classifier",
@@ -35,5 +35,11 @@
     "test": "gulp",
     "mocha": "mocha --recursive --no-timeouts"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jsonfile": "^2.2.3",
+    "lodash": "^4.3.0",
+    "nalapa": "^1.9.2",
+    "node-svm": "^2.1.7"
+  }
 }
