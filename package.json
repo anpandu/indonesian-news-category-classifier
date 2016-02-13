@@ -39,6 +39,7 @@
   "dependencies": {
     "jsonfile": "^2.2.3",
     "lodash": "^4.3.0",
-    "nalapa": "^1.9.2"
+    "nalapa": "^1.9.2",
+    "node-svm": "^2.1.7"
   }
 }
