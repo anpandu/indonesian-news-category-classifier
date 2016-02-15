@@ -8,7 +8,7 @@ var Preprocess = require('../../lib/modules/Preprocess.js')
 describe('Preprocess', function () {
 
   it('loadTfIdf', function () {
-    var answer = jsonfile.readFileSync('resources/tfidf-15741.json')
+    var answer = jsonfile.readFileSync('lib/res/tfidf-15741.json')
     assert(Preprocess.tfidf.length > 0, 'empty tfidf')
     Preprocess.tfidf.slice(0,5).forEach(function (tfidf, idx) {
         assert(_.isEqual(tfidf, answer[idx]))
