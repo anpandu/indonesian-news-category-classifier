@@ -1,6 +1,6 @@
 {
   "name": "indonesian-news-category-classifier",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Classify category of an Indonesian news.",
   "homepage": "pandu.ml",
   "repository": "anpandu/indonesian-news-category-classifier",
@@ -32,5 +32,9 @@
     "lodash": "^4.3.0",
     "nalapa": "^1.9.2",
     "node-svm": "^2.1.7"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
   }
 }
