@@ -1,4 +1,6 @@
 {
+"labels" : ["edukasi","health","otomotif","travel","lifestyle","techno","internasional","entertainment","ibukota","bisnis","sport","nasional"],
+"svm" : {
   "nrClass": 12,
   "l": 4747,
   "supportVectors": [
@@ -133222,4 +133224,5 @@
       ]
     ]
   }
+}
 }
