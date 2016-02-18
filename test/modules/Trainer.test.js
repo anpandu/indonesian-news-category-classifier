@@ -28,4 +28,15 @@ describe('Trainer', function () {
     })
   })
 
+  it('getTFIDF', function () {
+    var data = jsonfile.readFileSync('./test/fixtures/news10-category.json')
+    data = Trainer.appendCleanTokens(data)
+    var freqs = Trainer.getWordFreq(data)
+    var tfidfs = Trainer.getTFIDF(freqs)
+    tfidfs.forEach(function (f) {
+      assert('category' in f)
+      assert('tfidf' in f)
+    })
+  })
+
 })
