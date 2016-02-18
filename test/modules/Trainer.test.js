@@ -18,4 +18,14 @@ describe('Trainer', function () {
     })
   })
 
+  it('getWordFreq', function () {
+    var data = jsonfile.readFileSync('./test/fixtures/news10-category.json')
+    data = Trainer.appendCleanTokens(data)
+    var freqs = Trainer.getWordFreq(data)
+    freqs.forEach(function (f) {
+      assert('category' in f)
+      assert('freq' in f)
+    })
+  })
+
 })
