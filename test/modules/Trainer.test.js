@@ -56,6 +56,7 @@ describe('Trainer', function () {
       .then(function (result) {
         assert('labels' in result)
         assert('svm' in result)
+        assert('tfidf' in result)
       })
   })
 
