@@ -36,6 +36,7 @@ describe('Trainer', function () {
     tfidfs.forEach(function (f) {
       assert('category' in f)
       assert('tfidf' in f)
+      assert(_.isArray(f.tfidf))
     })
   })
 
@@ -56,6 +57,7 @@ describe('Trainer', function () {
       .then(function (result) {
         assert('labels' in result)
         assert('svm' in result)
+        assert('tfidf' in result)
       })
   })
 
