@@ -11,7 +11,7 @@ describe('Preprocess', function () {
     var answer = jsonfile.readFileSync('lib/res/15741.model.json').tfidf
     assert(Preprocess.tfidf.length > 0, 'empty tfidf')
     Preprocess.tfidf.slice(0,5).forEach(function (tfidf, idx) {
-        assert(_.isEqual(tfidf, answer[idx]))
+      assert(_.isEqual(tfidf, answer[idx]))
     })
   })
 
