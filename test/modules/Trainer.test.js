@@ -51,11 +51,11 @@ describe('Trainer', function () {
 
   it('train', function () {
     var data = jsonfile.readFileSync('./test/fixtures/news10-category.json')
-    var dataset = Trainer
+    Trainer
       .train(data)
       .then(function (result) {
         assert('labels' in result)
-        assert('model' in result)
+        assert('svm' in result)
       })
   })
 
