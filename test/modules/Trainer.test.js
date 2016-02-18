@@ -39,4 +39,14 @@ describe('Trainer', function () {
     })
   })
 
+  it('appendScores', function () {
+    var data = jsonfile.readFileSync('./test/fixtures/news10-category.json')
+    var tfidf = jsonfile.readFileSync('./test/fixtures/tfidf10.json')
+    data = Trainer.appendScores(data, tfidf)
+    data.forEach(function (f) {
+      assert('labels' in f)
+      assert('scores' in f)
+    })
+  })
+
 })
