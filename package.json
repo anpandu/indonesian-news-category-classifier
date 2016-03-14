@@ -1,19 +1,21 @@
 {
   "name": "indonesian-news-category-classifier",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Classify category of an Indonesian news.",
-  "homepage": "pandu.ml",
+  "homepage": "anpandu.com",
   "repository": "anpandu/indonesian-news-category-classifier",
   "author": {
     "name": "Pandu",
     "email": "anpandumail@gmail.com",
-    "url": "pandu.ml"
+    "url": "anpandu.com"
   },
   "files": [
     "lib"
   ],
   "main": "lib/index.js",
   "keywords": [
+    "machine learning",
+    "natural language processing",
     "indonesian",
     "news",
     "category",
